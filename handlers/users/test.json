@@ -1,0 +1,73 @@
+{
+    "message_id": 15692,
+    "from": {
+        "id": 5503466607,
+        "is_bot": true,
+        "first_name": "ОСО СГУ",
+        "username": "ososgu_bot"
+    },
+    "chat": {
+        "id": 420624020,
+        "first_name": "Александр",
+        "username": "Ya_Kobets",
+        "type": "private"
+    },
+    "date": 1675716342,
+    "photo": [
+        {
+            "file_id": "AgACAgIAAxkDAAI9TGPhPMakwZSgeJbVgi8Q1FsFco5cAAJ2xTEbUi0JS8mahlAM5gzwAQADAgADcwADLgQ",
+            "file_unique_id": "AQADdsUxG1ItCUt4",
+            "file_size": 1810,
+            "width": 90,
+            "height": 80
+        },
+        {
+            "file_id": "AgACAgIAAxkDAAI9TGPhPMakwZSgeJbVgi8Q1FsFco5cAAJ2xTEbUi0JS8mahlAM5gzwAQADAgADbQADLgQ",
+            "file_unique_id": "AQADdsUxG1ItCUty",
+            "file_size": 26757,
+            "width": 320,
+            "height": 286
+        },
+        {
+            "file_id": "AgACAgIAAxkDAAI9TGPhPMakwZSgeJbVgi8Q1FsFco5cAAJ2xTEbUi0JS8mahlAM5gzwAQADAgADeAADLgQ",
+            "file_unique_id": "AQADdsUxG1ItCUt9",
+            "file_size": 116587,
+            "width": 800,
+            "height": 715
+        },
+        {
+            "file_id": "AgACAgIAAxkDAAI9TGPhPMakwZSgeJbVgi8Q1FsFco5cAAJ2xTEbUi0JS8mahlAM5gzwAQADAgADeQADLgQ",
+            "file_unique_id": "AQADdsUxG1ItCUt-",
+            "file_size": 138131,
+            "width": 1005,
+            "height": 898
+        }
+    ],
+    "caption": "🚫Скрыто🚫   asdasd\nasdasd\nДата проведения: 23 Марта в 17:00",
+    "caption_entities": [
+        {
+            "type": "bold",
+            "offset": 0,
+            "length": 19
+        },
+        {
+            "type": "bold",
+            "offset": 44,
+            "length": 16
+        }
+    ],
+    "reply_markup": {
+        "inline_keyboard": [
+            [
+                {
+                    "text": "Удалить",
+                    "callback_data": "delete_63e12d70f0466303687ccd47"
+                },
+                {
+                    "text": "Показать",
+                    "callback_data": "show_63e12d70f0466303687ccd47"
+                }
+            ]
+        ]
+    }
+}

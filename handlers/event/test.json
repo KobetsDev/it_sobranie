@@ -1,0 +1,39 @@
+{
+    "id": "1806566411408380849",
+    "from": {
+        "id": 420624020,
+        "is_bot": false,
+        "first_name": "Александр",
+        "username": "Ya_Kobets",
+        "language_code": "ru"
+    },
+    "message": {
+        "message_id": 16372,
+        "from": {
+            "id": 5503466607,
+            "is_bot": true,
+            "first_name": "ОСО СГУ",
+            "username": "ososgu_bot"
+        },
+        "chat": {
+            "id": 420624020,
+            "first_name": "Александр",
+            "username": "Ya_Kobets",
+            "type": "private"
+        },
+        "date": 1676578395,
+        "text": "👇Все мероприятия👇",
+        "reply_markup": {
+            "inline_keyboard": [
+                [
+                    {
+                        "text": "Клац!",
+                        "callback_data": "else_"
+                    }
+                ]
+            ]
+        }
+    },
+    "chat_instance": "-1649830781120808821",
+    "data": "else_"
+}
