@@ -1,0 +1,213 @@
+dispatcher.py [LINE:433] #INFO     [2023-10-07 15:37:39,811]  Stop polling...
+executor.py [LINE:329] #WARNING  [2023-10-07 15:37:39,811]  Goodbye!
+executor.py [LINE:362] #INFO     [2023-10-07 15:37:50,973]  Bot: ЖКХ Сочи [@jkh_hackaton_bot]
+dispatcher.py [LINE:358] #INFO     [2023-10-07 15:37:51,113]  Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-10-07 15:49:39,753]  Stop polling...
+executor.py [LINE:329] #WARNING  [2023-10-07 15:49:39,753]  Goodbye!
+executor.py [LINE:362] #INFO     [2023-10-07 15:50:33,882]  Bot: ЖКХ Сочи [@jkh_hackaton_bot]
+dispatcher.py [LINE:358] #INFO     [2023-10-07 15:50:34,076]  Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-10-07 15:55:59,962]  Stop polling...
+executor.py [LINE:329] #WARNING  [2023-10-07 15:55:59,962]  Goodbye!
+executor.py [LINE:362] #INFO     [2023-10-07 15:56:09,061]  Bot: ЖКХ Сочи [@jkh_hackaton_bot]
+dispatcher.py [LINE:358] #INFO     [2023-10-07 15:56:09,202]  Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-10-07 15:57:31,287]  Stop polling...
+executor.py [LINE:329] #WARNING  [2023-10-07 15:57:31,287]  Goodbye!
+executor.py [LINE:362] #INFO     [2023-10-07 15:57:39,699]  Bot: ЖКХ Сочи [@jkh_hackaton_bot]
+dispatcher.py [LINE:358] #INFO     [2023-10-07 15:57:39,825]  Start polling.
+base_events.py [LINE:1744] #ERROR    [2023-10-07 15:59:07,582]  Task exception was never retrieved
+future: <Task finished name='Task-51' coro=<Dispatcher._process_polling_updates() done, defined at D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("event_check() missing 1 required positional argument: 'keyboard'")>
+Traceback (most recent call last):
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+TypeError: event_check() missing 1 required positional argument: 'keyboard'
+dispatcher.py [LINE:433] #INFO     [2023-10-07 15:59:27,319]  Stop polling...
+executor.py [LINE:329] #WARNING  [2023-10-07 15:59:27,319]  Goodbye!
+executor.py [LINE:362] #INFO     [2023-10-07 15:59:35,304]  Bot: ЖКХ Сочи [@jkh_hackaton_bot]
+dispatcher.py [LINE:358] #INFO     [2023-10-07 15:59:35,423]  Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-10-07 16:03:45,861]  Stop polling...
+executor.py [LINE:329] #WARNING  [2023-10-07 16:03:45,862]  Goodbye!
+executor.py [LINE:362] #INFO     [2023-10-07 16:03:53,874]  Bot: ЖКХ Сочи [@jkh_hackaton_bot]
+dispatcher.py [LINE:358] #INFO     [2023-10-07 16:03:54,010]  Start polling.
+base_events.py [LINE:1744] #ERROR    [2023-10-07 16:03:54,287]  Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<Dispatcher._process_polling_updates() done, defined at D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("CallbackData.__init__() missing 1 required positional argument: 'prefix'")>
+Traceback (most recent call last):
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "D:\w\hackaton_bot\handlers\accident\accident.py", line 28, in take_accident
+    reply_markup=phone_ikb()
+  File "D:\w\hackaton_bot\keyboards\inline\pick_phone.py", line 7, in phone_ikb
+    copy_callback = CallbackData()
+TypeError: CallbackData.__init__() missing 1 required positional argument: 'prefix'
+dispatcher.py [LINE:433] #INFO     [2023-10-07 16:04:44,701]  Stop polling...
+executor.py [LINE:329] #WARNING  [2023-10-07 16:04:44,701]  Goodbye!
+executor.py [LINE:362] #INFO     [2023-10-07 16:04:52,598]  Bot: ЖКХ Сочи [@jkh_hackaton_bot]
+dispatcher.py [LINE:358] #INFO     [2023-10-07 16:04:52,780]  Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-10-07 16:09:42,596]  Stop polling...
+executor.py [LINE:329] #WARNING  [2023-10-07 16:09:42,597]  Goodbye!
+executor.py [LINE:362] #INFO     [2023-10-07 16:09:50,196]  Bot: ЖКХ Сочи [@jkh_hackaton_bot]
+dispatcher.py [LINE:358] #INFO     [2023-10-07 16:09:50,337]  Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-10-07 16:10:01,510]  Stop polling...
+executor.py [LINE:329] #WARNING  [2023-10-07 16:10:01,512]  Goodbye!
+executor.py [LINE:362] #INFO     [2023-10-07 16:10:08,743]  Bot: ЖКХ Сочи [@jkh_hackaton_bot]
+dispatcher.py [LINE:358] #INFO     [2023-10-07 16:10:08,853]  Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-10-07 16:10:13,618]  Stop polling...
+executor.py [LINE:329] #WARNING  [2023-10-07 16:10:13,618]  Goodbye!
+executor.py [LINE:362] #INFO     [2023-10-07 16:10:20,739]  Bot: ЖКХ Сочи [@jkh_hackaton_bot]
+dispatcher.py [LINE:358] #INFO     [2023-10-07 16:10:20,927]  Start polling.
+base_events.py [LINE:1744] #ERROR    [2023-10-07 16:10:22,426]  Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<Dispatcher._process_polling_updates() done, defined at D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "D:\w\hackaton_bot\handlers\accident\accident.py", line 27, in take_accident
+    await message.answer('Телефон службы',
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\types\message.py", line 438, in answer
+    return await self.bot.send_message(
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2023-10-07 16:10:42,022]  Stop polling...
+executor.py [LINE:329] #WARNING  [2023-10-07 16:10:42,022]  Goodbye!
+executor.py [LINE:362] #INFO     [2023-10-07 16:10:52,952]  Bot: ЖКХ Сочи [@jkh_hackaton_bot]
+dispatcher.py [LINE:358] #INFO     [2023-10-07 16:10:53,077]  Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-10-07 16:11:31,131]  Stop polling...
+executor.py [LINE:329] #WARNING  [2023-10-07 16:11:31,131]  Goodbye!
+executor.py [LINE:362] #INFO     [2023-10-07 16:11:38,985]  Bot: ЖКХ Сочи [@jkh_hackaton_bot]
+dispatcher.py [LINE:358] #INFO     [2023-10-07 16:11:39,133]  Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-10-07 16:13:02,649]  Stop polling...
+executor.py [LINE:329] #WARNING  [2023-10-07 16:13:02,650]  Goodbye!
+executor.py [LINE:362] #INFO     [2023-10-07 16:13:11,008]  Bot: ЖКХ Сочи [@jkh_hackaton_bot]
+dispatcher.py [LINE:358] #INFO     [2023-10-07 16:13:11,165]  Start polling.
+base_events.py [LINE:1744] #ERROR    [2023-10-07 16:13:11,478]  Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<Dispatcher._process_polling_updates() done, defined at D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=CantParseEntities('Can\'t parse entities: expected equal sign in declaration of an attribute of the tag "a" at byte offset 45')>
+Traceback (most recent call last):
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "D:\w\hackaton_bot\handlers\users\help.py", line 17, in bot_help
+    await message.answer(f'Пожалуйста обратитесь к {escape_md(CONTACT)}')
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\types\message.py", line 438, in answer
+    return await self.bot.send_message(
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.CantParseEntities: Can't parse entities: expected equal sign in declaration of an attribute of the tag "a" at byte offset 45
+dispatcher.py [LINE:433] #INFO     [2023-10-07 16:14:24,150]  Stop polling...
+executor.py [LINE:329] #WARNING  [2023-10-07 16:14:24,151]  Goodbye!
+executor.py [LINE:362] #INFO     [2023-10-07 16:14:31,307]  Bot: ЖКХ Сочи [@jkh_hackaton_bot]
+dispatcher.py [LINE:358] #INFO     [2023-10-07 16:14:31,447]  Start polling.
+base_events.py [LINE:1744] #ERROR    [2023-10-07 16:14:41,111]  Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<Dispatcher._process_polling_updates() done, defined at D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "D:\w\hackaton_bot\handlers\accident\accident.py", line 37, in take_accident
+    await message.answer('Телефон службы', reply_markup=phone_ikb())
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\types\message.py", line 438, in answer
+    return await self.bot.send_message(
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+base_events.py [LINE:1744] #ERROR    [2023-10-07 16:15:23,303]  Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "D:\w\hackaton_bot\handlers\accident\accident.py", line 37, in take_accident
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\types\message.py", line 438, in answer
+    return await self.bot.send_message(
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "D:\Users\qwe\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2023-10-07 16:17:48,737]  Stop polling...
+executor.py [LINE:329] #WARNING  [2023-10-07 16:17:48,737]  Goodbye!
+executor.py [LINE:362] #INFO     [2023-10-07 16:17:56,720]  Bot: ЖКХ Сочи [@jkh_hackaton_bot]
+dispatcher.py [LINE:358] #INFO     [2023-10-07 16:17:56,832]  Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-10-07 16:18:01,928]  Stop polling...
+executor.py [LINE:329] #WARNING  [2023-10-07 16:18:01,928]  Goodbye!
+executor.py [LINE:362] #INFO     [2023-10-07 16:18:09,359]  Bot: ЖКХ Сочи [@jkh_hackaton_bot]
+dispatcher.py [LINE:358] #INFO     [2023-10-07 16:18:09,580]  Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-10-07 16:18:33,887]  Stop polling...
+executor.py [LINE:329] #WARNING  [2023-10-07 16:18:33,899]  Goodbye!
+executor.py [LINE:362] #INFO     [2023-10-07 16:18:41,905]  Bot: ЖКХ Сочи [@jkh_hackaton_bot]
+dispatcher.py [LINE:358] #INFO     [2023-10-07 16:18:42,086]  Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-10-07 16:23:09,285]  Stop polling...
+executor.py [LINE:329] #WARNING  [2023-10-07 16:23:09,285]  Goodbye!
